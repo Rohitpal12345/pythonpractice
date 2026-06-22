@@ -52,17 +52,57 @@
 
 
 # wap to check number is armstrong or not taking by user.
-num=int(input("enter your  number"))
-temp=num
-sum=0
-while num>0:
-    remainder=num%10
-    sum=remainder*remainder*remainder+sum
-    num=num//10
-if temp==sum:
-    print(temp," is armstrong number")
-else:
-    print(temp," is not armstrong number")
+# num=int(input("enter your  number"))
+# temp=num
+# sum=0
+# while num>0:
+#     remainder=num%10
+#     sum=remainder*remainder*remainder+sum
+#     num=num//10
+# if temp==sum:
+#     print(temp," is armstrong number")
+# else:
+#     print(temp," is not armstrong number")
+
+# wap to chechk given number is palindrome or not 
+
+# num=555
+# temp=num
+# reverse=0
+
+# while num>0:
+#     remainder=num%10
+#     reverse=reverse*10+remainder
+#     num=num//10
+# if reverse==temp:
+
+#     print("number is palindrome")
+# else:
+#     print("not palindrome")
+
+
+# wap to check palindrome take input from user.
+# num=int(input("enter a number "))
+# temp=num
+# reverse=0
+# while num>0:
+#     remainder=num%10
+#     reverse=(reverse*10)+remainder
+#     num=num//10
+# if temp==reverse:
+#     print("number is palindrome")
+# else:
+#     print("not palindrome")
+   
+# # wap to print sum of alternate number.
+# number = "123445884"
+# total = 0
+# for i in range(0, len(number), 2):
+#     total += int(number[i])
+# print(total)
+
+
+
 
 
 
