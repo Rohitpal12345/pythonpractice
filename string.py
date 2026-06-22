@@ -1,2 +1,2 @@
 string1="rohit"
-print
+print(string1)
