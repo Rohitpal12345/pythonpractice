@@ -29,11 +29,27 @@
 # print(sum_even)
 
 # wap to sum of all odd number from 1 to 10 .
-sum_odd=0
-for i in range(1,11):
-    if i%2!=0:
-        sum_odd+=i
-print(sum_odd)
+# sum_odd=0
+# for i in range(1,11):
+#     if i%2!=0:
+#         sum_odd+=i
+# print(sum_odd)
+
+# wap to check number is armstrong or not 153.
+num=153
+temp=num
+sum=0
+
+while num>0:
+    remainder=num%10
+    sum=remainder*remainder*remainder+sum
+    num=num//10
+
+if temp==sum:
+     print("number is armstrong")
+else:
+        print("number is not armstrong")
+
 
 
 
