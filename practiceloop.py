@@ -36,19 +36,33 @@
 # print(sum_odd)
 
 # wap to check number is armstrong or not 153.
-num=153
+# num=153
+# temp=num
+# sum=0
+
+# while num>0:
+#     remainder=num%10
+#     sum=remainder*remainder*remainder+sum
+#     num=num//10
+
+# if temp==sum:
+#      print("number is armstrong")
+# else:
+#         print("number is not armstrong")
+
+
+# wap to check number is armstrong or not taking by user.
+num=int(input("enter your  number"))
 temp=num
 sum=0
-
 while num>0:
     remainder=num%10
     sum=remainder*remainder*remainder+sum
     num=num//10
-
 if temp==sum:
-     print("number is armstrong")
+    print(temp," is armstrong number")
 else:
-        print("number is not armstrong")
+    print(temp," is not armstrong number")
 
 
 
