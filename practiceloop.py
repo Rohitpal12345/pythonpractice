@@ -130,15 +130,47 @@
 
 
 # wap to print factorial of given number
-num=5
-factorial=1
+# num=5
+# factorial=1
 
+# while num>0:
+#     factorial=factorial*num
+#     print(num,"num")
+#     print(factorial,"factorial")
+#     num=num-1
+# print("final factorial",factorial)
+
+
+# In this program while-loop perform functionality like do-while in other programming language.
+# while True:
+#     print("rohit")
+#     num=int(input("enter a number"))
+#     if num>0:
+#         break
+#     else:
+#           print("loop continue")
+
+
+# str1="python"
+# for i in range(len(str1)):
+#     print(str1[i],i)
+
+
+# emp = ["rohit", "rohan"]
+# emp_upper = [emp.upper() for emp in emp]
+# print(emp_upper)
+
+
+num=int(input("Enter your number"))
+temp=num
+sum=0
 while num>0:
-    factorial=factorial*num
-    print(num,"num")
-    print(factorial,"factorial")
-    num=num-1
-print("final factorial",factorial)
+    remainder=num%10
+    sum=remainder*remainder*remainder*remainder+sum
+    num=num//10
 
+if sum==temp:
+  print(temp,"is armstrong")
+else:
+  print(temp,"is not armstrong")
 
-  

@@ -34,10 +34,15 @@
 # print(index_sum)
 
 
-marks_tuple=(50,55,69,34,89)
-sum=0
-for i in range(len(marks_tuple)):
-    sum+=i
-print(sum)
+# marks_tuple=(50,55,69,34,89)
+# sum=0
+# for i in range(len(marks_tuple)):
+#     sum+=i
+# print(sum)
+
+
+        
+
+
 
 
