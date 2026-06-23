@@ -102,10 +102,43 @@
 # print(total)
 
 
+#convert number to string then you can sum of alternate digit in given number
+
+# num="1234456789"  
+# sum=0
+# for i in range(0,len(num),2):
+#     sum+= int(num[i])
+#     print(sum)
+
+# wap to print sum of even index of given number
+
+# num="1234456789"
+# sum=0
+# for i in range (1,len(num),2):
+#     sum+= int(num[i])
+# print(sum)
+    
+
+# wap to print factorial of given number
+
+# num=5
+# factorial=1
+# for i in range(1,num+1):
+#     factorial=factorial*i
+#     num=num-1
+# print(factorial)
 
 
+# wap to print factorial of given number
+num=5
+factorial=1
 
-
+while num>0:
+    factorial=factorial*num
+    print(num,"num")
+    print(factorial,"factorial")
+    num=num-1
+print("final factorial",factorial)
 
 
   
