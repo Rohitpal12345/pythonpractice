@@ -160,17 +160,30 @@
 # emp_upper = [emp.upper() for emp in emp]
 # print(emp_upper)
 
+# wap to print 4 digit armstrong number
+#num=int(input("Enter your number"))
+# temp=num
+# sum=0
+# while num>0:
+#     remainder=num%10
+#     sum=remainder*remainder*remainder*remainder+sum
+#     num=num//10
 
-num=int(input("Enter your number"))
-temp=num
-sum=0
-while num>0:
-    remainder=num%10
-    sum=remainder*remainder*remainder*remainder+sum
-    num=num//10
+# if sum==temp:
+#   print(temp,"is armstrong")
+# else:
+#   print(temp,"is not armstrong")
 
-if sum==temp:
-  print(temp,"is armstrong")
-else:
-  print(temp,"is not armstrong")
+
+  #wap to print fabonacci series upto 10 
+a=0
+b=1
+print(a,b, end=" ")
+for i in range(5):
+    c=a+b
+    print(c,end=" ")
+    a=b
+    b=c
+     
+ 
 

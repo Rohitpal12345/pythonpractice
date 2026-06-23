@@ -1,2 +1,9 @@
-string1="rohit"
-print(string1)
+# list=["python programming"]
+# for i in list:
+#     print(i[::-1])
+
+
+
+
+
+   
