@@ -175,7 +175,7 @@
 #   print(temp,"is not armstrong")
 
 
-#wap to print fabonacci series upto 10 
+#wap to print fibonacci(sum of last two terms) series upto 10 
 # a=0
 # b=1
 # print(a,b, end=" ")
@@ -185,7 +185,7 @@
 #     a=b
 #     b=c
 
-#wap to print tribonacci series upto 10 
+#wap to print tribonacci(sum of last three terms) series upto 10 
 a=0
 b=0
 c=1
