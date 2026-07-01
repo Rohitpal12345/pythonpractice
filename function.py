@@ -53,16 +53,29 @@
 
 
 # wap to print tribonacci series using function taking argumrment and return.
+# def tribonacci(a,b,c):
+#     print(a,b,c,end=" ")
+#     for i in range(5):
+#         d=a+b+c;
+#         print(d,end=" ")
+#         a=b
+#         b=c
+#         c=d
+# tribonacci(0,0,1)   
 
-def tribonacci(a,b,c):
-    print(a,b,c,end=" ")
-    for i in range(5):
-        d=a+b+c;
-        print(d,end=" ")
-        a=b
-        b=c
-        c=d
-tribonacci(0,0,1)   
+#wap to print sum of given number in loop using function
+
+def sum1(n):
+    add=0
+    for i in range(n):
+     add+=i
+    print("sum of given n number is->",add)
+      
+   
+
+sum1(11)
+    
+
   
 
 
