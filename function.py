@@ -65,29 +65,59 @@
 
 #wap to print sum of given number in loop using function
 
-def sum1(n):
-    add=0
-    for i in range(n):
-     add+=i
-    print("sum of given n number is->",add)
-sum1(11)
+# def sum1(n):
+#     add=0
+#     for i in range(n):
+#      add+=i
+#     print("sum of given n number is->",add)
+# sum1(11)
 
 
 # wap to check a number is armstrong or not using function
 
-def armstrong(n):
-   temp=n
-   sum=0
-   while n>0:
-      remainder=n%10
-      sum=remainder*remainder*remainder+sum
-      n=n//10
+# def armstrong(n):
+#    temp=n
+#    sum=0
+#    while n>0:
+#       remainder=n%10
+#       sum=remainder*remainder*remainder+sum
+#       n=n//10
 
-   if temp==sum:
-      print(temp,"is armstrong")
-   else:
-      print(temp,"is not armstrong")
-armstrong(154)
+#    if temp==sum:
+#       print(temp,"is armstrong")
+#    else:
+#       print(temp,"is not armstrong")
+# armstrong(154)
+
+# wap to check a number is palinsdrome or not using function
+# 121
+
+
+# def palindrome(n):
+#    temp=n
+#    reverse=0
+ 
+#    while n>0:
+#       remainder=n%10
+#       reverse=reverse*10+remainder
+#       n=n//10
+#    if reverse==temp:
+#       print(temp,"is a palindrome number")
+#    else:
+#       print(temp,"is not a palindrome number")
+      
+# palindrome(121)
+
+# wap to check even number and their sum using function
+
+def check_even_sum():
+    sum=0
+    for i in range(1,11):
+        if i%2==0:
+            sum+=i
+            print(i,"is even number")
+    print("sum of all even number is->",sum)
+check_even_sum()
       
 
  
