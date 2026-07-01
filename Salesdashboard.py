@@ -30,11 +30,11 @@ if page=="🏡Dashboard":
 
 st.subheader("Select Region")
 region=st.selectbox("Region",["North","South","East","West"])
-st.write("Selected Region",region)
+st.write("Selected Region:",region)
 
 if st.button("Refresh"):
      st.success("Dasboard Refreshed!")
-     st.progress(80)
+     st.progress(90)
 
  
      
@@ -67,7 +67,7 @@ elif page=="⚙️Settings":
      st.subheader("Dashboard Settings")
      #theme option
      theme=st.selectbox("Choose Theme",["Light","Dark"])
-     st.write("Selected Theme",theme)
+     st.write("Selected Theme:",theme)
      #Notification Settings
      notification=st.checkbox("Enables Notification")
      if notification:

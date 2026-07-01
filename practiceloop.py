@@ -166,6 +166,7 @@
 # sum=0
 # while num>0:
 #     remainder=num%10
+#     sum=remainder**4+sum
 #     sum=remainder*remainder*remainder*remainder+sum
 #     num=num//10
 

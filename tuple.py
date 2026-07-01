@@ -40,7 +40,8 @@
 #     sum+=i
 # print(sum)
 
-
+from custom_mod import check_even
+print(check_even(10))
         
 
 
