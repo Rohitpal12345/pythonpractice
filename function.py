@@ -70,10 +70,29 @@ def sum1(n):
     for i in range(n):
      add+=i
     print("sum of given n number is->",add)
+sum1(11)
+
+
+# wap to check a number is armstrong or not using function
+
+def armstrong(n):
+   temp=n
+   sum=0
+   while n>0:
+      remainder=n%10
+      sum=remainder*remainder*remainder+sum
+      n=n//10
+
+   if temp==sum:
+      print(temp,"is armstrong")
+   else:
+      print(temp,"is not armstrong")
+armstrong(154)
       
+
+ 
    
 
-sum1(11)
     
 
   
